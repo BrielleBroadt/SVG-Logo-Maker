@@ -14,6 +14,7 @@ Developer utilized a multitude of applications to complete this project. Includi
 - [Questions](#questions)
 
 ## Installation
+[Untitled_ Sep 14, 2023 11_47 AM.webm](https://github.com/BrielleBroadt/SVG-Logo-Maker/assets/135186013/d408e52b-9da8-40ea-84fd-47101f1eb506)
 
 
 ## Usage
