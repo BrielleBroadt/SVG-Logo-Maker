@@ -6,7 +6,7 @@ const {Circle, Square, Triangle} = require("./lib/shapes.js")
 
 
 
-
+// prompts for terminal to ask canidates
 function makeShape (){
     inquirer.prompt([
         {
@@ -31,6 +31,7 @@ function makeShape (){
             message: "Please choose which shape you would like?",
             choices: ["Circle", "Square", "Triangle"],
         }, 
+        // switch statement to add to questions
     ]).then((response)=>{
         let SVGlogo;
         switch(response.shape){
@@ -55,6 +56,7 @@ function makeShape (){
         makeSVG("mySVG.svg", newLogo.renderSVG())
     })
 }
+// function to place in correct file location
 function makeSVG(filename, response){
     fs.writeFile(filename, response, (err) =>{
         err? console.log (err):console.log("look it's an SVG")
